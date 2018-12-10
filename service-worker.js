@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/godjun.github.io/precache-manifest.f4541e3e0033a574d51b33228261cad3.js"
+  "/firstreact/precache-manifest.2f03409ef8a9cf2d1d033af2f1b7d213.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/godjun.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/firstreact/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
